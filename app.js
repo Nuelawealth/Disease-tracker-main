@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
 }).addTo(map);
 
-// Dummy data for diseases (latitude, longitude, and cases)
+// Dummy data for diseases (latitude, longitude, diseaseName, cases and deaths)
 const diseaseData = [];
 
 // Function to add markers to the map
